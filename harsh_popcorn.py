@@ -13,9 +13,8 @@ def the_flying_circus():
                     print "Hey, you've got enough to buy both of us popcorn! Good, because that's exactly what you're going to do."
                     return "GOOD ENDING" #good ending
                 elif answer >= 2.50 and answer < 5:
-                    print "You've only got enough for 1 helping of popcorn. I guess you didn't think about me."
-                    print "How inconsiderate of you."
-                    return "GAME OVER" #bad ending
+                    print "You've only got enough for 1 helping of popcorn. Aww thanks, you want to buy it just for me? You shouldn't have! Thanks!"
+                    return "GOOD ENDING" #bad ending
                 elif answer < 2.50 and answer > 0:
                     print "You don't have enough! I can't believe you!"
                     return "GAME OVER" #bad ending
